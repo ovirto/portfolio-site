@@ -64,7 +64,7 @@ export function FeaturedProjects(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/wurlde-demo.jpg"
+                        src="/wurdle-demo.jpg"
                         alt="A demo screenshot of my project called Wurdle"
                         className="rounded-full w-48 h-48 object-cover mx-auto"
                     />

@@ -29,7 +29,7 @@ export function AboutMe(){
                         scalable web apps with React, TypeScript, and Azure.
                     </p>
                     <p className="mb-4">
-                        When I’m not coding, I love playing chess and contributing to open-source.
+                        When I’m not coding, I love playing chess, reading, and playing guitar.
                     </p>
                     <a
                         href="/resume.pdf"
@@ -108,22 +108,27 @@ export function Skills(){
                 <div className="md:w-1/3">
                     <img
                         src="/example.jpg"
-                        alt="A demo screenshot of my web development project"
+                        alt="A demo screenshot of my web development experience"
                         className="rounded-full w-48 h-48 object-cover mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">
                     <p className="mb-4">
-
+                        I got most of my web development experience from my senior capstone project at Dominican University.
+                        I worked on a team of 8 developers along with our professor to transition the Chicago Code Camp Website into its new
+                        and improved Windy City Conference branding. The site is for a non-profit that hosts virtual and in-person Computer Science conferences
+                        all over the Chicagoland area.
                     </p>
                     <p className="mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in justo sollicitudin, placerat metus non, pretium dolor. Sed sapien enim, commodo eget pretium sed, cursus eu orci. In tempus eget elit et dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc rutrum elementum elit non scelerisque. Nullam vulputate risus ac finibus dictum. Integer porttitor at nisi venenatis scelerisque. Nullam ornare arcu ut tortor mollis, eu volutpat nisi fermentum. In rhoncus eu elit sed venenatis. Sed blandit varius lacinia. Nam cursus dictum ex, eu ornare justo accumsan et. Nullam placerat gravida mauris sed porta.
+                        For the first semester of class I got to experience the complete agile development cycle; I completed my first sprint,
+                        performed a code review with my professor and classmates, and unit tested serverless, RESTful, APIs. We developed the backend using Azure functions
+                        with C#. My second semester was dedicated to development on the frontend using React with Typescript as well as creating and completing
+                        tickets for different issues and requirements issued to us by our professor.
                     </p>
                     <p className="mb-4">
-                        Proin et odio dui. Quisque molestie leo odio, vitae iaculis erat ultrices id. Sed eu auctor mi, hendrerit elementum sem. Phasellus sed tempus lectus. Quisque ex elit, iaculis eu purus maximus, tempus luctus urna. Pellentesque suscipit nulla ut nunc posuere, ut dignissim tortor feugiat. Curabitur odio lectus, pharetra auctor magna vel, molestie dapibus metus. Vestibulum lectus purus, cursus et auctor a, mollis quis lectus.
-                    </p>
-                    <p className="mb-4">
-                        Sed commodo non est nec posuere. Suspendisse lobortis eros a augue elementum laoreet. Sed vel arcu id leo efficitur rhoncus. Integer sed molestie dolor, sit amet feugiat massa. Curabitur quis enim tempus, volutpat nulla sed, convallis risus. Maecenas vel consectetur dui. Morbi arcu mi, consectetur ut est sit amet, blandit rhoncus dui. Integer molestie odio ac urna maximus egestas. Nulla dictum, nulla ac bibendum tincidunt, dui turpis facilisis dui, ac auctor leo lectus non dui. Proin lacinia nibh ornare lectus eleifend convallis. Maecenas et sagittis diam, id scelerisque turpis. Praesent lorem justo, porttitor eu est id, accumsan placerat nunc. Pellentesque nec nisi vulputate, pellentesque lorem vel, blandit felis.
+                        The most notable feature I worked on during this project was the integration of payments using Stripe checkout. While the site is a
+                        nonprofit, we learned that people are more likely to attend an event if they have incentive. We offered free and
+                        paid ticket options. Paid options included a swag-bag or lunch to encourage event attendance.
                     </p>
                 </div>
             </div>

@@ -107,7 +107,7 @@ export function Skills(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/example.jpg"
+                        src="/stripe_logo.avif"
                         alt="A demo screenshot of my web development experience"
                         className="rounded-full w-48 h-48 object-cover mx-auto"
                     />
@@ -145,7 +145,7 @@ export function Technologies(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/example.jpg"
+                        src="/jetbrains_logo.png"
                         alt="A demo screenshot of technologies I'm familiar with"
                         className="rounded-full w-48 h-48 object-cover mx-auto"
                     />
@@ -155,13 +155,20 @@ export function Technologies(){
 
                     </p>
                     <p className="mb-4">
-                        Aenean at neque mauris. Pellentesque vel pretium elit, sed tincidunt ipsum. Nullam tristique, libero eget commodo pulvinar, urna lorem pulvinar tellus, venenatis scelerisque mauris magna eu magna. Praesent eu turpis nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris eu bibendum magna. Integer egestas arcu sit amet nunc sagittis, sit amet viverra turpis dictum. Duis libero risus, blandit pulvinar ullamcorper ac, condimentum at lorem. Donec viverra magna eu pharetra eleifend.
+                        Like many aspiring developers, I got my start on Eclipse. Our Intro to Programming professor recommended
+                        this IDE since it was the one he was most comfortable teaching. I used it to complete my first "Hello World"
+                        in java and stuck with it for the remainder of my first programming class.
                     </p>
                     <p className="mb-4">
-                        Proin et odio dui. Quisque molestie leo odio, vitae iaculis erat ultrices id. Sed eu auctor mi, hendrerit elementum sem. Phasellus sed tempus lectus. Quisque ex elit, iaculis eu purus maximus, tempus luctus urna. Pellentesque suscipit nulla ut nunc posuere, ut dignissim tortor feugiat. Curabitur odio lectus, pharetra auctor magna vel, molestie dapibus metus. Vestibulum lectus purus, cursus et auctor a, mollis quis lectus.
+                        During my second semester, I took a course on Windows Forms Applications where I got familiar with the Visual Studio IDE. I also took
+                        an intro to web development course where we used Visual Studio code to create basic HTML websites, along with CSS and Javascript at the end
+                        of the course.
                     </p>
                     <p className="mb-4">
-                        Donec pulvinar sapien quis ante viverra scelerisque. Vivamus rhoncus dolor eu eros cursus rutrum. In at ante gravida, auctor velit quis, tempus eros. Phasellus efficitur odio sed felis pellentesque, et luctus eros accumsan. Nunc vel malesuada felis. Proin magna lacus, rutrum quis posuere sit amet, fringilla quis sapien. Aenean id cursus erat. Donec quis enim dapibus, rhoncus ex sed, ultricies ipsum. Phasellus sodales enim pellentesque pharetra efficitur. Pellentesque finibus rutrum congue. Integer sagittis varius augue vel imperdiet. Etiam luctus tincidunt purus vel pretium. Aenean id pretium urna. Nulla finibus varius orci et scelerisque. Nullam pharetra nunc sit amet libero auctor, vitae fermentum lectus gravida. Donec scelerisque consequat dignissim.
+                        At this point, I also grew interested in developing my own personal programs. I had an assignment for my Nutrition class where I had
+                        to calculate BMI and got the idea to write a program to help me complete the calculations. My classmate liked my idea and introduced
+                        me to the JetBrains IDE IntelliJ. I really enjoyed the clean look and ease of use it had to offer, so I
+                        still use it to this day, along with Pycharm, Rider, Android Studio, and WebStorm.
                     </p>
                 </div>
             </div>

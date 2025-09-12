@@ -8,7 +8,7 @@ export default function HeroSection(){
                 <p className="text-x1 mb-8">Full-Stack Developer | React | Typescript | Azure | C#</p>
             </div>
         </section>
-    );
+    ); // TODO: Title header animation upon page load
 }
 
 export function AboutMe(){
@@ -99,7 +99,6 @@ export function FeaturedProjects(){
 }
 
 export function Skills(){
-    // TODO
     return (
         <section id="skills" className="py-20 px-4 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
@@ -137,7 +136,6 @@ export function Skills(){
 }
 
 export function Technologies(){
-    // TODO
     return (
         <section id="technologies" className="py-20 px-4 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Technologies</h2>

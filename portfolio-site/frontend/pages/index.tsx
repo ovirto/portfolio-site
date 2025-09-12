@@ -1,14 +1,27 @@
+"use client";
 
+import {useEffect, useState} from "react";
 
 export default function HeroSection(){
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        // Trigger animation after component mounts
+        setIsVisible(true);
+    }, []);
+
     return (
         <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-800 to-pink-950 text-white">
             <div className="text-center">
-                <h1 className ="text-5xl font-bold mb-4">Hi, I'm Ozie Virto</h1>
-                <p className="text-x1 mb-8">Full-Stack Developer | React | Typescript | Azure | C#</p>
+                <h1 className={`text-5xl font-bold mb-4 ${isVisible ? 'fade-in' : ''}`}>
+                    Hi, I'm Ozie Virto
+                </h1>
+                <p className={`text-xl mb-8 ${isVisible ? 'fade-in-delayed' : ''}`}>
+                    Full-Stack Developer | React | Typescript | Azure | C#
+                </p>
             </div>
         </section>
-    ); // TODO: Title header animation upon page load
+    );
 }
 
 export function AboutMe(){

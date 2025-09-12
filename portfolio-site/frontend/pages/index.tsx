@@ -16,7 +16,7 @@ export default function HeroSection(){
                 <h1 className={`text-5xl font-bold mb-4 ${isVisible ? 'fade-in' : ''}`}>
                     Hi, I'm Ozie Virto
                 </h1>
-                <p className={`text-xl mb-8 ${isVisible ? 'fade-in-delayed' : ''}`}>
+                <p className={`text-xl mb-8 ${isVisible ? 'fade-in fade-in-delay-900' : ''}`}>
                     Full-Stack Developer | React | Typescript | Azure | C#
                 </p>
             </div>

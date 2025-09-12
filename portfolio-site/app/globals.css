@@ -31,12 +31,6 @@ body {
     animation: fadeInAnimation 1s ease-in forwards;
 }
 
-.fade-in-delayed {
-    opacity: 0;
-    animation: fadeInAnimation 1s ease-in forwards;
-    animation-delay: 0.3s;
-}
-
 .fade-in-delay-300 {
     animation-delay: 0.3s;
 }

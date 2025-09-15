@@ -87,20 +87,20 @@ export function FeaturedProjects(){
 
                     </p>
                     <p className="mb-4">
-                        After a friend recommended I check out the New York Time's daily word puzzle game called Wordle,
+                        After witnessing the growing popularity of the New York Time's daily puzzle game Wordle,
                         I thought it would be a great opportunity for me to put what I'd learned in school to the test and
-                        make the game myself within the Java console by giving my best guess as to how the game works.
+                        program the game myself using the Java console by giving my best guess as to how the game is coded.
                     </p>
                     <p className="mb-4">
                         I called the end result: Wurdle.
                     </p>
                     <p className="mb-4">
                         I used asterisks to represent the game board instead of squares while still maintaining color-coded
-                        feedback based on user guesses. A correct letter in the correct postion will be highlighted green, a correct
+                        feedback based on user guesses. A correct letter in the correct position will be highlighted green, a correct
                         letter in an incorrect position will be highlighted yellow, and an incorrect letter will be highlighted grey.
                     </p>
                     <a
-                        href="https://github.com/ovirto/Wurdle" // TODO: Wurdle for Android
+                        href="https://github.com/ovirto/Wurdle" // TODO: Wurdle for Android? Make it in browser? Both??
                         className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
                     >
                         See Wurdle

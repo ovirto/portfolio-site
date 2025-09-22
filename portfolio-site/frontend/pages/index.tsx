@@ -33,7 +33,7 @@ export function AboutMe(){
                     <img
                         src="/profile-pic.jpg"
                         alt="Ozie Virto picture"
-                        className="rounded-full w-48 h-48 object-cover mx-auto"
+                        className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">
@@ -79,7 +79,7 @@ export function FeaturedProjects(){
                     <img
                         src="/wurdle-demo.jpg"
                         alt="A demo screenshot of my project called Wurdle"
-                        className="rounded-full w-48 h-48 object-cover mx-auto"
+                        className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">
@@ -121,7 +121,7 @@ export function Skills(){
                     <img
                         src="/stripe_logo.avif"
                         alt="A demo screenshot of my web development experience"
-                        className="rounded-full w-48 h-48 object-cover mx-auto"
+                        className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">
@@ -158,7 +158,7 @@ export function Technologies(){
                     <img
                         src="/jetbrains_logo.png"
                         alt="A demo screenshot of technologies I'm familiar with"
-                        className="rounded-full w-48 h-48 object-cover mx-auto"
+                        className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">

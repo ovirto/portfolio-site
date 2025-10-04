@@ -115,7 +115,7 @@ export function Skills(){
     return (
         <section id="skills" className="py-20 px-4 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
-            <h3 className="text-3xl font-bold mb-6 text-left">Web Development</h3>
+            <h3 className="text-3xl font-bold mb-6 text-left">Web Dev</h3>
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
@@ -187,3 +187,17 @@ export function Technologies(){
     );
 }
 
+export function Connect(){
+    return (
+        <section id="connect" className="py-20 px-4 max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6 text-center">Want to learn more about me? Lets connect!</h2>
+            <div className="text-xl text-center">
+                <p className="mb-4">
+                    I respond fastest through email, but regularly check out Linkedin as well.
+                    I've also included my Github in case you'd like to check out some of the other stuff I'm
+                    working on.
+                </p>
+            </div>
+        </section>
+    );
+}

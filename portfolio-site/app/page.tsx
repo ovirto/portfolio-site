@@ -1,6 +1,6 @@
-import HeroSection, {Skills, Technologies} from "@/frontend/pages";
-import {AboutMe} from "@/frontend/pages";
-import {FeaturedProjects} from "@/frontend/pages";
+import HeroSection, {
+    AboutMe, FeaturedProjects, Skills,
+    Technologies, Connect} from "@/frontend/pages";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
         <FeaturedProjects/>
         <Skills/>
         <Technologies/>
+        <Connect/>
     </div>
   );
 }

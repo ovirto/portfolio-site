@@ -50,18 +50,6 @@ export function AboutMe(){
                     >
                         Download Resume
                     </a>
-                    <a
-                        href="https://www.linkedin.com/in/ozievirto919/"
-                        className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
-                    >
-                        LinkedIn
-                    </a>
-                    <a
-                        href="https://github.com/ovirto"
-                        className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
-                    >
-                        Github
-                    </a>
 
                 </div>
             </div>
@@ -197,6 +185,24 @@ export function Connect(){
                     I've also included my Github in case you'd like to check out some of the other stuff I'm
                     working on.
                 </p>
+                <a
+                    href=""
+                    className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
+                >
+                    Send me an Email
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/ozievirto919/"
+                    className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
+                >
+                    Message me on LinkedIn
+                </a>
+                <a
+                    href="https://github.com/ovirto"
+                    className="inline-block px-4 py-2 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white transition"
+                >
+                    Check out my Github
+                </a>
             </div>
         </section>
     );

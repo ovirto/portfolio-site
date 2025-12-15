@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.development.local
+
+# OS files - CRITICAL for Mac/Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager
+package-lock.json
+portfolio-site/package-lock.json

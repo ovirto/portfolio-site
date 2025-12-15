@@ -31,7 +31,7 @@ export function AboutMe(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/profile-pic.jpg"
+                        src="/profile-pic.jpeg"
                         alt="Ozie Virto picture"
                         className="rounded-full w-75 h-75 object-cover mx-auto"
                     />

@@ -31,7 +31,7 @@ export function AboutMe(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/profile-pic.jpeg"
+                        src="/profile_pic.jpeg"
                         alt="Ozie Virto picture"
                         className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
@@ -65,7 +65,7 @@ export function FeaturedProjects(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/wurdle-demo.gif"
+                        src="/wurdle_demo.gif"
                         alt="A demo screenshot of my project called Wurdle"
                         className="square-full w-75 h-75 object-cover mx-auto"
                     />
@@ -107,9 +107,9 @@ export function Skills(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/stripe_logo.avif"
-                        alt="A demo screenshot of my web development experience"
-                        className="rounded-full w-75 h-75 object-cover mx-auto"
+                        src="/stripe_logo.gif"
+                        alt="A gif of the Stipe's logo"
+                        className="rounded-lg w-75 h-75 object-contain mx-auto"
                     />
                 </div>
                 <div className="md:w-2/3">
@@ -144,7 +144,7 @@ export function Technologies(){
             <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                     <img
-                        src="/jetbrains_logo.png"
+                        src="/jetbrains_logo.gif"
                         alt="A demo screenshot of technologies I'm familiar with"
                         className="rounded-full w-75 h-75 object-cover mx-auto"
                     />
